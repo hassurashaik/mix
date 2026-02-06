@@ -17,7 +17,7 @@ FS_ORIG = 16000
 parser = argparse.ArgumentParser()
 parser.add_argument(
     "--wsj0_path",
-    default=r"C:\Users\Shaik\Documents\temp_conv\pywsj0-mix",
+    default=r"/content/mix/wsj0-mix/2speakers/wav8k/min"
     help="Path to WSJ0 root"
 )
 parser.add_argument("--output_folder", default="wsj0-mix")
